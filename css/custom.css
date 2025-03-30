@@ -1,0 +1,45 @@
+
+
+    /* Navbar */
+
+.navbar {
+    background-color: #3c415c;
+    color: white;
+}
+
+ .navbar__content__logo {
+    font-family: 'Montserrat';
+}
+
+
+
+    /* Header */
+
+header .header__left {
+    max-width: 60rem;
+}
+
+.header__left .header__left--title {
+    font-size: 3rem;
+}
+
+.header__right .header__image {
+    width: 350px;
+}
+
+.header .max-width {
+    margin-bottom: 5rem;
+}
+
+/* About */
+
+.about {
+    background-color: #F3F6fb ;
+}
+
+
+/* Projects */
+
+.projects {
+    background-color: #F3F6fb;
+}
