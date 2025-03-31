@@ -1,30 +1,55 @@
+    /* HTML */
+
+body {
+
+    background-color: #121214;
+
+}
 
 
     /* Navbar */
 
 .navbar {
-    background-color: #3c415c;
-    color: white;
+    background-color: #202024;
+    color: #c4c4cc;
 }
 
  .navbar__content__logo {
-    font-family: 'Montserrat';
+    font-family: 'Lato, Sans serif';
+}
+
+.navbar .navbar__links {
+    color: aqua;
 }
 
 
 
     /* Header */
 
+
+header p.description {
+    margin-bottom: 2rem;
+
+}
+
 header .header__left {
     max-width: 60rem;
+    /* background-color: #202024; */
 }
 
 .header__left .header__left--title {
     font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #00FFFF;
+}
+
+p {
+    color: #c4c4cc;
 }
 
 .header__right .header__image {
     width: 350px;
+    background-color: #202024;
 }
 
 .header .max-width {
@@ -33,13 +58,46 @@ header .header__left {
 
 /* About */
 
+h3.tertiary-title {
+    color: #00FFFF;
+}
+
 .about {
-    background-color: #F3F6fb ;
+    background-color: #202024;
+    color: #00FFFF;
 }
 
 
 /* Projects */
 
+h2.secondary-title {
+    color: #00FFFF;
+}
+
 .projects {
-    background-color: #F3F6fb;
+    background-color: #202024;
+    color: #00FFFF;
+}
+
+
+/* Skills */
+
+.skills {
+    background-color: #121214;
+}
+
+h2.tertiary-title {
+    color: #00FFFF;
+}
+
+.skills__content {
+    background-color: #202024;
+}
+
+/* icons (instagram, linkedin.. etc) */
+
+.icon {
+    color: #00FFFF;
+    width: 30px;
+    height: 30px;
 }
