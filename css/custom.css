@@ -43,9 +43,11 @@ header .header__left {
     color: #00FFFF;
 }
 
-p {
+p  {
     color: #c4c4cc;
 }
+
+
 
 .header__right .header__image {
     width: 350px;
@@ -92,6 +94,10 @@ h2.tertiary-title {
 
 .skills__content {
     background-color: #202024;
+}
+
+p.skills__p {
+    color: #000;
 }
 
 /* icons (instagram, linkedin.. etc) */
